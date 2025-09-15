@@ -24,3 +24,10 @@ https://www.researchgate.net/publication/237381942_Sphere_rolling_on_the_surface
 https://www.physicswithelliot.com/lagrangian-hamiltonian-mini-notes
 
 https://youtu.be/iTa_Qxdfai0?si=m3YoZ2mywIzIpvLX
+
+## Referensi Lain
+
+https://cp-algorithms.com/
+
+https://drive.google.com/drive/folders/1c5OOoPjsGDN25ew-baGz4eKpPyPJAECE?usp=sharing
+
