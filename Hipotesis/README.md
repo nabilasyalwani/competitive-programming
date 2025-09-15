@@ -8,11 +8,11 @@ Dengan kecepatan yang konstan, kita dapat mengetahui radius dari titik kontak bo
 
 $$ r = \frac{v^2 \tan(\theta)}{g} $$
 
-Namun, jika persamaan tersebut diubah bentuk menjadi fungsi mencari kecepatan seperti berikut:
+Jika persamaan tersebut diubah bentuk menjadi fungsi mencari kecepatan seperti berikut:
 
 $$ v^2 = \frac{rg}{\tan(\theta)} $$
 
-Hasil yang didapatkan adalah kecepatan \( v \) meningkat secara **monoton** terhadap \( r \). Artinya, semakin besar jari-jari lintasan \( r \), semakin besar pula kecepatan \( v \) yang diperoleh.
+Namun, hasil yang didapatkan adalah kecepatan \( v \) meningkat secara **monoton** terhadap \( r \). Artinya, semakin besar jari-jari lintasan \( r \), semakin besar pula kecepatan \( v \) yang diperoleh.
 
 Hal ini seharusnya tidak mungkin terjadi, karena dari test case yang diberikan pada soal, keluaran radius titik kontak lebih kecil dari radius awal bola.
 
