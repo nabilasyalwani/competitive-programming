@@ -2,7 +2,7 @@
 
 ## Visualisasi ROLLBALL
 
-Agar saya bisa memahami soal dengan baik, saya mencari visualisasi 3D yang berterkaitan dengan permasalahan RollBall, yakni animasi bola bergerak berputar di permukaan dalam kerucut yang mengarah ke bawah.
+Agar saya bisa memahami soal dengan baik, saya mencari visualisasi 3D yang berkaitan dengan permasalahan ROLLBALL, yakni animasi bola bergerak berputar di permukaan dalam kerucut yang mengarah ke bawah.
 
 Disini, saya menemukan sebuah website visualisasi dimana kita bisa mengatur nilai variabelnya yang ditulis dalam bahasa python.
 
