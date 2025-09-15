@@ -8,7 +8,7 @@ Dengan kecepatan yang konstan, kita dapat mengetahui radius dari titik kontak bo
 
 $$ r = \frac{v^2 \tan(\theta)}{g} $$
 
-Jika persamaan tersebut diubah bentuk menjadi fungsi mencari kecepatan seperti berikut:
+Jika persamaan tersebut diubah bentuk menjadi fungsi mencari kecepatan, maka akan menjadi seperti berikut:
 
 $$ v^2 = \frac{rg}{\tan(\theta)} $$
 
