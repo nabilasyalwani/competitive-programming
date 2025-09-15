@@ -24,6 +24,6 @@ Pada website visualisasi gerakan bola dengan pendekatan hamiltonian, saya mencob
 
 Jika diasumsikan bahwa bola bergerak berputar secara horizontal, maka variabel `zdot` harus semakin kecil.
 
-Kemudian, saya mencoba mengubah ketinggian inisialisasi dari bolanya pada variabel `z` dan menemukan bahwa semkain kecil nilainya maka semakin cepat pula gerakan dari bola berputar. Nilai `z` yang semakin kecil menandakan bahwa bola berputar mendekati ujung kerucut.
+Kemudian, saya mencoba mengubah ketinggian inisialisasi dari bolanya pada variabel `z` dan menemukan bahwa semakin kecil nilainya maka semakin cepat pula gerakan dari bola berputar. Nilai `z` yang semakin kecil menandakan bahwa bola berputar mendekati ujung kerucut.
 
 Dari analisis ini, saya menyimpulkan bahwa kecepatan maksimum bola terjadi saat lintasannya berada pada radius terkecil yang mungkin. Namun, tidak sampai pada ujung kerucut karena radius bola akan sampai di titik menyamai radius lingkaran kerucut sehingga ukuran tersebut menghalangi bola untuk masuk lebih dalam lagi.
