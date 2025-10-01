@@ -4,8 +4,7 @@
 
 **Update: 08-09-2025**
 
-Hipotesis pertama saya untuk kasus soal ROLL![Ilustrasi titik kontak](https://github.com/user-attachments/assets/33577961-5a3c-4d4c-bcd6-bfeb84e0085c)
-BALL adalah menggunakan rumus Circular Motion, di mana bola menggelinding tanpa slip pada permukaan dalam kerucut tetapi dengan kecepatan yang konstan.
+Hipotesis pertama saya untuk kasus soal ROLLBALL adalah menggunakan rumus Circular Motion, di mana bola menggelinding tanpa slip pada permukaan dalam kerucut tetapi dengan kecepatan yang konstan.
 
 Dengan kecepatan yang konstan, kita dapat mengetahui radius dari titik kontak bola dengan permukaan kerucut dengan persamaan berikut:
 
