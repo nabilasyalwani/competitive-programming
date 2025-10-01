@@ -2,6 +2,8 @@
 
 ## Circular Motion
 
+**Update: 08-09-2025**
+
 Hipotesis pertama saya untuk kasus soal ROLLBALL adalah menggunakan rumus Circular Motion, di mana bola menggelinding tanpa slip pada permukaan dalam kerucut tetapi dengan kecepatan yang konstan.
 
 Dengan kecepatan yang konstan, kita dapat mengetahui radius dari titik kontak bola dengan permukaan kerucut dengan persamaan berikut:
@@ -20,6 +22,8 @@ Maka dari sini, pendekatan yang saya gunakan masih belum berhasil dan belum sesu
 
 ## Hamiltonian
 
+**Update: 15-09-2025**
+
 Pada website visualisasi gerakan bola dengan pendekatan hamiltonian, saya mencoba mengubah beberapa nilai variabel kondisi awal bola.
 
 Jika diasumsikan bahwa bola bergerak berputar secara horizontal, maka variabel `zdot` harus semakin kecil.
@@ -27,3 +31,19 @@ Jika diasumsikan bahwa bola bergerak berputar secara horizontal, maka variabel `
 Kemudian, saya mencoba mengubah ketinggian inisialisasi dari bolanya pada variabel `z` dan menemukan bahwa semakin kecil nilainya maka semakin cepat pula gerakan dari bola berputar. Nilai `z` yang semakin kecil menandakan bahwa bola berputar mendekati ujung kerucut.
 
 Dari analisis ini, saya menyimpulkan bahwa kecepatan maksimum bola terjadi saat lintasannya berada pada radius terkecil kerucut. Namun, tidak sampai pada ujung karena radius bola akan sampai di titik menyamai radius lingkaran kerucut sehingga ukuran tersebut menghalangi bola untuk masuk lebih dalam lagi.
+
+## Lagrangian
+
+**Update: 23-09-2025**
+
+Pada pertemuan minggu lalu, saya mendapatkan masukan dari dosen pembimbing bahwa untuk menentukan kecepatan maksimum bola yang berputar mengelilingi permukaan dalam kerucut, diperlukan fungsi waktu sebagai indikator waktu tempuh tercepat. Berdasarkan arahan tersebut, saya kemudian menelusuri beberapa referensi terkait particle in a cone, di mana pendekatan dengan teori Lagrangian banyak digunakan. Saya mencoba menuliskan kembali bentuk kasar persamaannya dengan tujuan mendapatkan fungsi waktu tersebut, namun ketika sampai pada tahap penurunan persamaan kecepatan, saya mengalami kesulitan dan belum menemukan cara untuk melanjutkannya.
+
+## Contact Mechanics
+
+**Update: 01-10-2025**
+
+Beberapa hari terakhir ini saya meninjau ulang kembali soal ROLLBALL dan sepertinya saya mendapatkan perspektif baru mengenai output yang diminta dalam soal. Saya awalnya berasumsi bahwa output yang diminta adalah radius lingkaran kerucut ketika bola berputar secepat mungkin, tetapi setelah saya membaca kembali, sepertinya yang dimaksud oleh soal adalah radius lingkaran yang terbentuk dari titik-titik pada permukaan bola yang kontak dengan permukaan kerucut.
+
+Misalkan diasumsikan kerucut memiliki cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
+
+Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
