@@ -46,7 +46,7 @@ Pada pertemuan minggu lalu, saya mendapatkan masukan dari dosen pembimbing bahwa
 
 Beberapa hari terakhir ini saya meninjau ulang kembali soal ROLLBALL dan sepertinya saya mendapatkan perspektif baru mengenai output yang diminta dalam soal. Saya awalnya berasumsi bahwa output yang diminta adalah radius lingkaran kerucut ketika bola berputar secepat mungkin, tetapi setelah saya membaca kembali, sepertinya yang dimaksud oleh soal adalah radius lingkaran yang terbentuk dari titik-titik pada permukaan bola yang kontak dengan permukaan kerucut.
 
-Misalkan diasumsikan kerucut memiliki cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
+Misalkan diasumsikan permukaan kerucut penuh dengan cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
 
 Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
 
