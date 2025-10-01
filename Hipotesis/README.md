@@ -4,7 +4,8 @@
 
 **Update: 08-09-2025**
 
-Hipotesis pertama saya untuk kasus soal ROLLBALL adalah menggunakan rumus Circular Motion, di mana bola menggelinding tanpa slip pada permukaan dalam kerucut tetapi dengan kecepatan yang konstan.
+Hipotesis pertama saya untuk kasus soal ROLL![Ilustrasi titik kontak](https://github.com/user-attachments/assets/33577961-5a3c-4d4c-bcd6-bfeb84e0085c)
+BALL adalah menggunakan rumus Circular Motion, di mana bola menggelinding tanpa slip pada permukaan dalam kerucut tetapi dengan kecepatan yang konstan.
 
 Dengan kecepatan yang konstan, kita dapat mengetahui radius dari titik kontak bola dengan permukaan kerucut dengan persamaan berikut:
 
@@ -38,7 +39,9 @@ Dari analisis ini, saya menyimpulkan bahwa kecepatan maksimum bola terjadi saat 
 
 Pada pertemuan minggu lalu, saya mendapatkan masukan dari dosen pembimbing bahwa untuk menentukan kecepatan maksimum bola yang berputar mengelilingi permukaan dalam kerucut, diperlukan fungsi waktu sebagai indikator waktu tempuh tercepat. Berdasarkan arahan tersebut, saya kemudian menelusuri beberapa referensi terkait particle in a cone, di mana pendekatan dengan teori Lagrangian banyak digunakan. Saya mencoba menuliskan kembali bentuk kasar persamaannya dengan tujuan mendapatkan fungsi waktu tersebut, namun ketika sampai pada tahap penurunan persamaan kecepatan, saya mengalami kesulitan dan belum menemukan cara untuk melanjutkannya.
 
-## Contact Mechanics
+![WhatsApp Image 2025-10-01 at 09 22 45](https://github.com/user-attachments/assets/bb8028d0-f7f9-4c14-9afc-d4a56d153ef2)
+
+## Contact Point
 
 **Update: 01-10-2025**
 
@@ -47,3 +50,6 @@ Beberapa hari terakhir ini saya meninjau ulang kembali soal ROLLBALL dan seperti
 Misalkan diasumsikan kerucut memiliki cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
 
 Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
+
+![Ilustrasi titik kontak](https://github.com/user-attachments/assets/8476c5c0-f6d8-47cd-b47f-14b1dd664cb6)
+
