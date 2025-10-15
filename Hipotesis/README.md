@@ -47,3 +47,22 @@ Beberapa hari terakhir ini saya meninjau ulang kembali soal ROLLBALL dan seperti
 Misalkan diasumsikan kerucut memiliki cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
 
 Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
+
+## Rolling Motion
+
+**Update: 15-10-2025**
+
+Ketika bola dilepaskan dari keadaan diam dengan sumbu spin horizontal (θ = 90°), bola akan menggelinding membentuk lintasan melingkar dengan jari-jari R pada permukaan bola itu sendiri. Namun, apabila sumbu spin bola dimiringkan (θ < 90°), maka lintasan melingkar yang terbentuk pada permukaan bola akan memiliki jari-jari r yang lebih kecil dari R. Titik kontak antara bola dan bidang miring terletak di daerah bawah bola, dan dari hubungan geometris diperoleh persamaan
+
+$$ r = R \sin(\theta) $$
+
+Oleh karena itu, jari-jari lintasan kontak yang terbentuk pasti lebih kecil dari radius bola. Untuk menentukan posisi kontak dan hubungan antara translasi serta rotasi, digunakan kondisi rolling without slipping yakni:
+
+$$ v = r\omega $$
+
+Selain itu, berdasarkan penelitian Cross (2015), percepatan bola yang menggelinding menuruni bidang miring tidak bergantung pada kecepatan rotasi awal, kemiringan awal sumbu spin, massa, maupun jari-jari bola. Percepatan tersebut identik dengan bola tanpa spin awal, begitu pula gaya gesek dan koefisien geseknya. Sehingga, kita bisa menentukan kecepatannya dengan mengetahui panjang lintasan bidang, yakni dengan rumus berikut:
+
+$$ v^2 = 2 a x = \frac{g x \sin{\alpha}}{0.7} $$
+
+Setelah nilai kecepatan linear
+v diketahui, maka hanya diperlukan satu nilai variabel lagi, yakni w untuk mengetahui radius lingkaran titik kontak bola dengan permukaan kerucut.
