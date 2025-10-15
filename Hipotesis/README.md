@@ -52,3 +52,22 @@ Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, 
 
 ![Ilustrasi titik kontak](https://github.com/user-attachments/assets/8476c5c0-f6d8-47cd-b47f-14b1dd664cb6)
 
+## Rolling Motion
+
+**Update: 15-10-2025**
+
+Ketika bola dilepaskan dari keadaan diam dengan sumbu spin horizontal (θ = 90°), bola akan menggelinding membentuk lintasan melingkar dengan jari-jari R pada permukaan bola itu sendiri. Namun, apabila sumbu spin bola dimiringkan (θ < 90°), maka lintasan melingkar yang terbentuk pada permukaan bola akan memiliki jari-jari r yang lebih kecil dari R. Titik kontak antara bola dan bidang miring terletak di daerah bawah bola, dan dari hubungan geometris diperoleh persamaan
+
+$$ r = R \sin(\theta) $$
+
+Oleh karena itu, jari-jari lintasan kontak yang terbentuk pasti lebih kecil dari radius bola. Untuk menentukan posisi kontak dan hubungan antara translasi serta rotasi, digunakan kondisi rolling without slipping yakni:
+
+$$ v = r\omega $$
+
+Selain itu, berdasarkan penelitian Cross (2015), percepatan bola yang menggelinding menuruni bidang miring tidak bergantung pada kecepatan rotasi awal, kemiringan awal sumbu spin, massa, maupun jari-jari bola. Percepatan tersebut identik dengan bola tanpa spin awal, begitu pula gaya gesek dan koefisien geseknya. Sehingga, kita bisa menentukan kecepatannya dengan mengetahui panjang lintasan bidang, yakni dengan rumus berikut:
+
+$$ v^2 = 2 a x = \frac{g x \sin{\alpha}}{0.7} $$
+
+Setelah nilai kecepatan linear
+v diketahui, maka hanya diperlukan satu nilai variabel lagi, yakni w untuk mengetahui radius lingkaran titik kontak bola dengan permukaan kerucut.
+
