@@ -50,6 +50,8 @@ Misalkan diasumsikan permukaan kerucut penuh dengan cat berwarna merah, sehingga
 
 Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
 
+![Ilustrasi titik kontak](https://github.com/user-attachments/assets/8476c5c0-f6d8-47cd-b47f-14b1dd664cb6)
+
 ## Rolling Motion
 
 **Update: 15-10-2025**
