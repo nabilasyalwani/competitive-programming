@@ -38,13 +38,15 @@ Dari analisis ini, saya menyimpulkan bahwa kecepatan maksimum bola terjadi saat 
 
 Pada pertemuan minggu lalu, saya mendapatkan masukan dari dosen pembimbing bahwa untuk menentukan kecepatan maksimum bola yang berputar mengelilingi permukaan dalam kerucut, diperlukan fungsi waktu sebagai indikator waktu tempuh tercepat. Berdasarkan arahan tersebut, saya kemudian menelusuri beberapa referensi terkait particle in a cone, di mana pendekatan dengan teori Lagrangian banyak digunakan. Saya mencoba menuliskan kembali bentuk kasar persamaannya dengan tujuan mendapatkan fungsi waktu tersebut, namun ketika sampai pada tahap penurunan persamaan kecepatan, saya mengalami kesulitan dan belum menemukan cara untuk melanjutkannya.
 
-## Contact Mechanics
+![WhatsApp Image 2025-10-01 at 09 22 45](https://github.com/user-attachments/assets/bb8028d0-f7f9-4c14-9afc-d4a56d153ef2)
+
+## Contact Point
 
 **Update: 01-10-2025**
 
 Beberapa hari terakhir ini saya meninjau ulang kembali soal ROLLBALL dan sepertinya saya mendapatkan perspektif baru mengenai output yang diminta dalam soal. Saya awalnya berasumsi bahwa output yang diminta adalah radius lingkaran kerucut ketika bola berputar secepat mungkin, tetapi setelah saya membaca kembali, sepertinya yang dimaksud oleh soal adalah radius lingkaran yang terbentuk dari titik-titik pada permukaan bola yang kontak dengan permukaan kerucut.
 
-Misalkan diasumsikan kerucut memiliki cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
+Misalkan diasumsikan permukaan kerucut penuh dengan cat berwarna merah, sehingga ketika ada benda ataupun objek yang melintas di dalam permukaannya, maka akan ada cat yang membekas di benda yang melintas tersebut.
 
 Jika benda yang melintas adalah bola, yang di mana objeknya bisa menggelinding, maka secara otomatis cat yang membekas akan membentuk garis dan menjadi lingkaran di permukaan bola. Jika dimisalkan bola menggelinding dengan rotasi putaran sejajar dengan kemiringan permukaan kerucut, maka tentu saja radius lingkaran yang terbentuk sama dengan radius bola. Akan tetapi, sepertinya karena diasumsikan bola bergerak dengan kecepatan semaksimal mungkin, maka bisa jadi poros rotasinya tidak sejajar dengan bidang kerucut, sehingga radius lingkaran yang terbentuk lebih kecil dari radius bola.
 
